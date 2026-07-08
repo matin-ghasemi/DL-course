@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Data and generated ML artifacts
+data/raw/
+data/large/
+outputs/
+checkpoints/
+models/
+wandb/
+mlruns/
